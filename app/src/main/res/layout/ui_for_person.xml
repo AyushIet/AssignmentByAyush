@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/my_linear_layout_style1">
+
+    <ImageView style="@style/my_image_style"
+        android:background="@drawable/shape"
+        android:id="@+id/pic"/>
+
+    <LinearLayout style="@style/my_linear_layout_style2">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/my_text_view_style1" />
+
+        <TextView
+            android:id="@+id/skills"
+            style="@style/my_text_view_style1"
+            android:layout_marginTop="25pt"
+            android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+
+</LinearLayout>

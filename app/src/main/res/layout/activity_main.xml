@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/my_linear_layout_style3"
+    tools:context="com.ayush.assignmentbyayush.MainActivity">
+
+    <TextView
+        android:id="@+id/main_activity_text_view"
+        style="@style/my_text_view_style2"
+        android:onClick="viewList" />
+    <android.support.v7.widget.RecyclerView
+        style="@style/my_recycler_view_style"
+        android:id="@+id/main_activity_recycler_view"/>
+
+</LinearLayout>
